@@ -23,7 +23,7 @@ loop:
     ldr r2, [r2]
 
     cmp r1, r2
-    bgt ctrue @tells if previous statment is true/false
+    bgt ctrue3 @tells if previous statment is true/false
     b cfalse @branch to false because it will just keep going
 
 ctrue:
